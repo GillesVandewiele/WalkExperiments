@@ -2,17 +2,16 @@
 
 This repository contains the code needed to reproduce the experiments from "Evaluating Walking Strategies for Node Embeddings in Knowledge Graphs". 
 
-## Installing pyRDF2Vec
+## Installing dependencies
 
-Our experiments require pyRDF2Vec. To install this, you can either use pip install or clone the repository:
-
-```bash
-# Pip alternative
-python -m pip install pyRDF2Vec
-# Clone repository
-git clone https://github.com/IBCNServices/pyRDF2Vec.git
-cd pyRDF2Vec
-python setup.py install
+Our experiments require the following dependencies:
+```
+numpy==1.13.1
+pandas==0.24.1
+sklearn==0.22
+pyRDF2Vec==0.0.5
+rdflib==4.2.2
+tqdm==4.19.5
 ```
 
 ## Generating results for benchmark KGs
